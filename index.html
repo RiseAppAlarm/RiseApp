@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+<style>
+ @media (min-width: 0px) and (max-width: 1024px) {
+		body{
+			background-color:#4A90E2;
+		}
+		#logo{
+			position: absolute;
+			top:20px;
+			left:20px;
+			z-index:2;
+		}
+                #img{
+	 		display: none;
+		}
+	        #imgmobile{
+			display: block;
+			position:absolute;	
+			top:0;
+			left:0;
+			height:100%;
+		}
+		#go{
+			position:absolute;
+			top:44%;
+			left:27%;
+			width:200px;
+			height:80px;
+		}		
+            }
+ @media (min-width: 1025px) {
+body{
+background-color:#4A90E2;
+}
+		#logo{
+			position: absolute;
+			top:30px;
+			left:256px;
+			z-index:2;
+		}
+		#img{
+			display: block;
+			position:absolute;	
+			top: 0;
+			left:128px;
+			height:100%;
+		}    
+		#imgmobile{
+			display:none;
+		}
+		#go{
+			position:absolute;
+			top:40%;
+			left:48%;
+			width:200px;
+			height:80px;
+		}
+            }
+           
+ 
+</style>
+</head>
+
+<body>
+<img id="logo" src="logo.png"/>
+<img src="image.png" id="img"/>
+<img src="back.png" id="imgmobile"/>
+<a  href='https://play.google.com/store/apps/details?id=example.naimish.com.alarm&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img id="go" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+</body>
+</html>
