@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule  "^/RiseApp/(.*)"  "https://riseappalarm.github.io/RiseApp"
